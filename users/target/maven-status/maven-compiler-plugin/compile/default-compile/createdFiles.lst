@@ -1,0 +1,6 @@
+users/command/GetUserByReferenceCommand.class
+users/service/UserService.class
+users/repository/UserRepository.class
+users/command/FindAllUsersCommand.class
+users/UserApplication.class
+users/ext/UserRestController.class
