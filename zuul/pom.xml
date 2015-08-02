@@ -17,6 +17,12 @@
         <!-- lookup parent from repository -->
     </parent>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <start-class>zuul.ZuulProxyApplication</start-class>
+        <java.version>1.8</java.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -76,7 +82,4 @@
             </plugin>
         </plugins>
     </build>
-
-
-
 </project>
