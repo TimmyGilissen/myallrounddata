@@ -14,6 +14,7 @@
         <module>users.api</module>
         <module>users</module>
         <module>zuul</module>
+        <module>mybody</module>
     </modules>
 
 </project>
