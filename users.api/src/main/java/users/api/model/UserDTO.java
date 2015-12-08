@@ -11,13 +11,13 @@ public class UserDTO {
 
     private final String displayName;
 
-    private final Address address;
+    private final AddressDTO addressDTO;
 
     private UserDTO(Builder builder) {
         id = builder.id;
         reference = builder.reference;
         displayName = builder.displayName;
-        address = builder.address;
+        addressDTO = builder.addressDTO;
     }
 
     public static Builder newBuilder() {
@@ -28,7 +28,7 @@ public class UserDTO {
         private Long id;
         private UserReferenceDTO reference;
         private String displayName;
-        private Address address;
+        private AddressDTO addressDTO;
 
         private Builder() {
         }
@@ -48,8 +48,8 @@ public class UserDTO {
             return this;
         }
 
-        public Builder withAddress(Address val) {
-            address = val;
+        public Builder withAddress(AddressDTO val) {
+            addressDTO = val;
             return this;
         }
 

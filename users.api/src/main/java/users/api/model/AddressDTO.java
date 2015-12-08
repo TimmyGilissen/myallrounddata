@@ -3,7 +3,7 @@ package users.api.model;
 /**
  * Created by timmygilissen on 8/12/15.
  */
-public class Address {
+public class AddressDTO {
 
     public final String Street;
 
@@ -15,7 +15,7 @@ public class Address {
 
     public final String country;
 
-    private Address(Builder builder) {
+    private AddressDTO(Builder builder) {
         Street = builder.Street;
         number = builder.number;
         City = builder.City;
@@ -62,8 +62,8 @@ public class Address {
             return this;
         }
 
-        public Address build() {
-            return new Address(this);
+        public AddressDTO build() {
+            return new AddressDTO(this);
         }
     }
 }

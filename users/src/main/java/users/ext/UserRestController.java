@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 import users.api.UserReferenceDTO;
 import users.api.UserRest;
 import users.api.model.UserDTO;
-import users.command.FindAllUsersCommand;
 import users.command.GetUserByReferenceCommand;
 
 import java.util.Collection;
