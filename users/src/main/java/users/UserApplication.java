@@ -8,6 +8,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import users.api.model.UserReferenceDTO;
 import users.api.model.UserDTO;
+import users.domain.User;
+import users.domain.UserReference;
 import users.repository.UserRepository;
 
 import java.util.Arrays;
@@ -25,7 +27,7 @@ public class UserApplication {
 
         return args -> {
             Arrays.asList("Carmen Phlippo,Inge Morbée,Bert Phlippo,Timmy Gilissen".split(","))
-                    .forEach(n -> rr.save(new UserDTO(new UserReferenceDTO("ref-" + n.hashCode()), n)));
+                    .forEach(n -> rr.save(new User(new UserReference("ref-" + n.hashCode()), n)));
 
             rr.findAll().forEach(System.out::println);
         };

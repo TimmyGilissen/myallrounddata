@@ -25,4 +25,25 @@ public class User {
         this.displayName = displayName;
         this.address = address;
     }
+
+    public User(UserReference userReference, String displayName) {
+        this.reference = userReference;
+        this.displayName = displayName;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public UserReference getReference() {
+        return reference;
+    }
+
+    public String getDisplayName() {
+        return displayName;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
 }

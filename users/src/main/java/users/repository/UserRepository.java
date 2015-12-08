@@ -2,7 +2,6 @@ package users.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import users.api.model.UserReferenceDTO;
-import users.api.model.UserDTO;
 import users.domain.User;
 
 /**
@@ -10,6 +9,6 @@ import users.domain.User;
  */
 public interface UserRepository extends JpaRepository<User,Long> {
 
-    UserDTO findByReference(UserReferenceDTO reference);
+    User findByReference(UserReferenceDTO reference);
 
 }

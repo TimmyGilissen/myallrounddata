@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 import users.api.model.UserReferenceDTO;
 import users.api.UserRest;
 import users.api.model.UserDTO;
+import users.application.GetAllUsersHandler;
+import users.application.GetUserByReferenceHandler;
 import users.command.GetUserByReferenceCommand;
 
 import java.util.Collection;
@@ -16,20 +18,20 @@ import java.util.Collection;
 public class UserRestController implements UserRest {
 
     @Autowired
-    private FindAllUsersCommand findAllUsersCommand;
+    private GetUserByReferenceHandler getUserByReferenceHandler;
 
     @Autowired
-    private GetUserByReferenceCommand getUserByReferenceCommand;
+    private GetAllUsersHandler getAllUsersHandler;
 
     @Override
     @RequestMapping(value = "/users",method = RequestMethod.GET)
     public Collection<UserDTO> users() {
-        return this.findAllUsersCommand.findAllUsers();
+        return this.getAllUsersHandler.GetAllUsers();
     }
 
     @Override
     @RequestMapping(value = "/user/{reference}", method = RequestMethod.GET)
     public UserDTO userByReference(@PathVariable("reference") UserReferenceDTO userReferenceDTO) {
-        return this.getUserByReferenceCommand.findByReference(userReferenceDTO);
+        return getUserByReferenceHandler.getUserByReference(GetUserByReferenceCommand.newBuilder().withReferenceDTO(userReferenceDTO).build());
     }
 }
