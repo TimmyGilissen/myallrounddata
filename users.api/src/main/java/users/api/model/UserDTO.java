@@ -1,8 +1,6 @@
 package users.api.model;
 
 
-import users.api.UserReferenceDTO;
-
 public class UserDTO {
 
     private final Long id;

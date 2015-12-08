@@ -1,6 +1,6 @@
 package users.command;
 
-import users.api.UserReferenceDTO;
+import users.api.model.UserReferenceDTO;
 
 
 public class GetUserByReferenceCommand {

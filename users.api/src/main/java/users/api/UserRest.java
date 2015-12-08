@@ -3,6 +3,7 @@ package users.api;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import users.api.model.UserDTO;
+import users.api.model.UserReferenceDTO;
 
 import java.util.Collection;
 

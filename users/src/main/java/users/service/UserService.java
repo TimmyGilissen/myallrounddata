@@ -2,7 +2,7 @@ package users.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import users.api.UserReferenceDTO;
+import users.api.model.UserReferenceDTO;
 import users.api.model.UserDTO;
 import users.repository.UserRepository;
 

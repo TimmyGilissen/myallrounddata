@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import users.api.UserReferenceDTO;
+import users.api.model.UserReferenceDTO;
 import users.api.UserRest;
 import users.api.model.UserDTO;
 import users.command.GetUserByReferenceCommand;

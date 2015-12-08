@@ -1,4 +1,4 @@
-package users.api;
+package users.api.model;
 
 public class UserReferenceDTO {
 

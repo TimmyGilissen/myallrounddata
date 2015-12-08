@@ -1,7 +1,7 @@
 package myhealth.api.model;
 
 import myhealth.api.BodyReference;
-import users.api.UserReferenceDTO;
+import users.api.model.UserReferenceDTO;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;

@@ -1,7 +1,7 @@
 package users.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import users.api.UserReferenceDTO;
+import users.api.model.UserReferenceDTO;
 import users.api.model.UserDTO;
 import users.domain.User;
 
