@@ -10,11 +10,10 @@
 
     <modules>
         <module>config</module>
-        <module>eureka</module>
         <module>users.api</module>
         <module>users</module>
-        <module>zuul</module>
         <module>mybody</module>
+        <module>mybody.api</module>
     </modules>
 
 </project>

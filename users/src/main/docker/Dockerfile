@@ -1,4 +1,4 @@
-FROM java:8
+FROM netflixoss/java:8
 VOLUME /tmp
 ADD users-1.0.jar app.jar
 RUN bash -c 'touch /app.jar'

@@ -23,12 +23,11 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="config" />
-        <module name="eureka" />
         <module name="myallrounddata" />
         <module name="mybody" />
+        <module name="mybody.api" />
         <module name="users" />
         <module name="users.api" />
-        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -36,6 +35,7 @@
       <module name="eureka" target="1.8" />
       <module name="myallrounddata" target="1.5" />
       <module name="mybody" target="1.6" />
+      <module name="mybody.api" target="1.5" />
       <module name="parent" target="1.5" />
       <module name="users" target="1.8" />
       <module name="users.api" target="1.5" />

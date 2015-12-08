@@ -2,8 +2,8 @@ package users.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import users.api.UserReference;
-import users.api.model.User;
+import users.api.UserReferenceDTO;
+import users.api.model.UserDTO;
 import users.repository.UserRepository;
 
 import java.util.Collection;
@@ -14,11 +14,11 @@ public class UserService {
     @Autowired
     private UserRepository userRepository;
 
-    public Collection<User> findAllUsers(){
+    public Collection<UserDTO> findAllUsers(){
         return userRepository.findAll();
     }
 
-    public User findByReference(final UserReference reference){
+    public UserDTO findByReference(final UserReferenceDTO reference){
         return userRepository.findByReference(reference);
     }
 }

@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import users.api.UserReference;
+import users.api.UserReferenceDTO;
 import users.api.UserRest;
-import users.api.model.User;
+import users.api.model.UserDTO;
 import users.command.FindAllUsersCommand;
 import users.command.GetUserByReferenceCommand;
 
@@ -24,13 +24,13 @@ public class UserRestController implements UserRest {
 
     @Override
     @RequestMapping(value = "/users",method = RequestMethod.GET)
-    public Collection<User> users() {
+    public Collection<UserDTO> users() {
         return this.findAllUsersCommand.findAllUsers();
     }
 
     @Override
     @RequestMapping(value = "/user/{reference}", method = RequestMethod.GET)
-    public User userByReference(@PathVariable("reference") UserReference userReference) {
-        return this.getUserByReferenceCommand.findByReference(userReference);
+    public UserDTO userByReference(@PathVariable("reference") UserReferenceDTO userReferenceDTO) {
+        return this.getUserByReferenceCommand.findByReference(userReferenceDTO);
     }
 }

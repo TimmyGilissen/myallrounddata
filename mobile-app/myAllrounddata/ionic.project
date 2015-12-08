@@ -1,0 +1,10 @@
+{
+  "name": "myAllrounddata",
+  "app_id": "4b0b2b2e",
+  "proxies": [
+    {
+      "path": "/u/users",
+      "proxyUrl": "http://myallrounddata-zuul.timmygilissen.svc.tutum.io/u/users"
+    }
+  ]
+}
