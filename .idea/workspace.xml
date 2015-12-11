@@ -7,265 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="998c2b83-c943-46d1-b152-69ab1c840031" name="Default" comment="zuul application yml">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users.api/src/main/java/users/api/request/UserRequestJson.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users.api/src/main/java/users/api/response/UserResponse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/src/main/java/users/application/AddUserHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/src/main/java/users/application/impl/AddUserHandlerHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/src/main/java/users/command/AddUserCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/src/main/java/users/factory/UserFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/users/src/main/java/users/factory/UserReferenceFactory.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/.io-config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/gulpfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/hooks/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/hooks/after_prepare/010_add_platform_class.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/ionic.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/scss/ionic.app.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/img/ionic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/js/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/js/controllers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/js/services.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-animate/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-animate/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-animate/angular-animate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-animate/angular-animate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-animate/angular-animate.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-animate/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-animate/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-resource/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-resource/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-resource/angular-resource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-resource/angular-resource.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-resource/angular-resource.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-resource/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-resource/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-resource/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-sanitize/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-sanitize/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-sanitize/angular-sanitize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-sanitize/angular-sanitize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-sanitize/angular-sanitize.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-sanitize/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-sanitize/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/api/angular-ui-router.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/release/angular-ui-router.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/resolve.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/state.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/stateDirectives.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/stateFilters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/templateFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/urlMatcherFactory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/urlRouter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/view.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/viewDirective.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular-ui-router/src/viewScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/angular-csp.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/angular.min.js.gzip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/angular.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/angular/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic-service-core/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic-service-core/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic-service-core/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic-service-core/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic-service-core/changelog.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic-service-core/ionic-core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic-service-core/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic-service-core/test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/css/ionic.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/css/ionic.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/fonts/ionicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/fonts/ionicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/fonts/ionicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/fonts/ionicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/js/ionic-angular.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/js/ionic-angular.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/js/ionic.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/js/ionic.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/js/ionic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/js/ionic.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_action-sheet.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_animations.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_backdrop.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_badge.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_button-bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_button.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_checkbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_form.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_items.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_loaders.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_loading.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_menu.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_platform.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_popover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_popup.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_progress.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_radio.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_range.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_refresher.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_scaffolding.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_slide-box.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_spinner.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_split-pane.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_toggle.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_transitions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_util.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/ionic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/ionicons/_ionicons-animation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Black/RobotoDraft-Black.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Black/RobotoDraft-Black.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Black/RobotoDraft-Black.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Black/RobotoDraft-Black.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Black/RobotoDraft-Black.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Bold/RobotoDraft-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Bold/RobotoDraft-Bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Bold/RobotoDraft-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Bold/RobotoDraft-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Bold/RobotoDraft-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/BoldItalic/RobotoDraft-BoldItalic.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Italic/RobotoDraft-Italic.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Italic/RobotoDraft-Italic.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Italic/RobotoDraft-Italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Italic/RobotoDraft-Italic.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Italic/RobotoDraft-Italic.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Light/RobotoDraft-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Light/RobotoDraft-Light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Light/RobotoDraft-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Light/RobotoDraft-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Light/RobotoDraft-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Medium/RobotoDraft-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Medium/RobotoDraft-Medium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Medium/RobotoDraft-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Medium/RobotoDraft-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Medium/RobotoDraft-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Regular/RobotoDraft-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Regular/RobotoDraft-Regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Regular/RobotoDraft-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Regular/RobotoDraft-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Regular/RobotoDraft-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Thin/RobotoDraft-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Thin/RobotoDraft-Thin.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Thin/RobotoDraft-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Thin/RobotoDraft-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/fonts/Thin/RobotoDraft-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/less/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/robotodraft.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/robotodraft.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/robotodraft.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_Black.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_Bold.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_BoldItalic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_Italic.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_Light.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_Medium.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_Regular.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_Thin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/lib/robotodraft/sass/robotodraft.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/templates/browse.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/templates/menu.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/templates/playlist.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/templates/playlists.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/templates/search.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/templates/user.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobile-app/myAllrounddata/www/templates/users.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users.api/src/main/java/users/api/model/AddressDTO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users.api/target/classes/users/api/UserReference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users.api/target/classes/users/api/model/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users.api/target/users.api-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/src/main/java/users/domain/Address.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/target/classes/users/command/FindAllUsersCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/users/target/classes/users/service/UserService.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users.api/src/main/java/users/api/model/UserDTO.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/factory/DTO/UserDTO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/users.api/src/main/java/users/api/model/UserReferenceDTO.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/factory/DTO/UserReferenceDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-repo" afterPath="$PROJECT_DIR$/config-repo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/target/config-1.0.jar" afterPath="$PROJECT_DIR$/config/target/config-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/target/config-1.0.jar.original" afterPath="$PROJECT_DIR$/config/target/config-1.0.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.api/target/classes/users/api/UserRest.class" afterPath="$PROJECT_DIR$/users.api/target/classes/users/api/UserRest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/users.api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/classes/users/UserApplication.class" afterPath="$PROJECT_DIR$/users/target/classes/users/UserApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/classes/users/command/GetUserByReferenceCommand.class" afterPath="$PROJECT_DIR$/users/target/classes/users/command/GetUserByReferenceCommand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/classes/users/ext/UserRestController.class" afterPath="$PROJECT_DIR$/users/target/classes/users/ext/UserRestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/classes/users/repository/UserRepository.class" afterPath="$PROJECT_DIR$/users/target/classes/users/repository/UserRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/docker/users-1.0.jar" afterPath="$PROJECT_DIR$/users/target/docker/users-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/users-1.0.jar" afterPath="$PROJECT_DIR$/users/target/users-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/users-1.0.jar.original" afterPath="$PROJECT_DIR$/users/target/users-1.0.jar.original" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile-app/meervitaliteit/www/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/config/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/target/classes/application.properties" afterPath="$PROJECT_DIR$/config/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/config/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.api/pom.xml" afterPath="$PROJECT_DIR$/users.api/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.api/src/main/java/users/api/UserRest.java" afterPath="$PROJECT_DIR$/users.api/src/main/java/users/api/UserRest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.api/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/users.api/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/users.api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/users.api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/pom.xml" afterPath="$PROJECT_DIR$/users/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/UserApplication.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/UserApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/application/GetAllUsersHandler.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/application/GetAllUsersHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/application/GetUserByReferenceHandler.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/application/GetUserByReferenceHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/application/impl/GetAllUsersHandlerHandler.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/application/impl/GetAllUsersHandlerHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/application/impl/GetUserByReferenceHandlerHandler.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/application/impl/GetUserByReferenceHandlerHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/command/GetUserByReferenceCommand.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/command/GetUserByReferenceCommand.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/domain/User.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/domain/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/ext/UserRestController.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/ext/UserRestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/mapper/Mapper.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/mapper/Mapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/java/users/repository/UserRepository.java" afterPath="$PROJECT_DIR$/users/src/main/java/users/repository/UserRepository.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/users/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/src/main/resources/bootstrap.properties" afterPath="$PROJECT_DIR$/users/src/main/resources/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/classes/application.properties" afterPath="$PROJECT_DIR$/users/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/classes/bootstrap.properties" afterPath="$PROJECT_DIR$/users/target/classes/bootstrap.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/users/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/users/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/users/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users/target/test-classes/image_info.json" afterPath="$PROJECT_DIR$/users/target/test-classes/image_info.json" />
     </list>
     <ignored path="myallrounddata.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -303,12 +46,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding>
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#873#874#0" expanded="true" />
-                <element signature="e#2437#2438#0" expanded="true" />
-                <element signature="e#2485#2486#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -343,31 +81,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.24613899">
+            <state vertical-scroll-proportion="-10.625">
               <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRequestJson.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users.api/src/main/java/users/api/request/UserRequestJson.java">
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile-app/meervitaliteit/www/js/services.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="26" selection-start-line="5" selection-start-column="4" selection-end-line="17" selection-end-column="26" />
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#48#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile-app/meervitaliteit/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47064778">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/src/main/java/users/mapper/Mapper.java">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile-app/meervitaliteit/www/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -402,10 +152,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Html5" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -420,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mybody.api/pom.xml" />
-        <option value="$PROJECT_DIR$/mybody.api/src/main/java/mybody/api/model/body.java" />
         <option value="$PROJECT_DIR$/mybody.api/src/main/java/mybody/api/BodyReference.java" />
         <option value="$PROJECT_DIR$/mybody.api/src/main/java/mybody/api/model/Body.java" />
         <option value="$PROJECT_DIR$/mybody.api/src/main/java/mybody/api/MyBodyRest.java" />
@@ -469,8 +217,10 @@
         <option value="$PROJECT_DIR$/users/src/main/java/users/factory/UserFactory.java" />
         <option value="$PROJECT_DIR$/users/src/main/java/users/domain/User.java" />
         <option value="$PROJECT_DIR$/users/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mobile-app/meervitaliteit/www/js/services.js" />
+        <option value="$PROJECT_DIR$/mobile-app/meervitaliteit/www/index.html" />
       </list>
     </option>
   </component>
@@ -498,7 +248,7 @@
     <option name="x" value="-2560" />
     <option name="y" value="23" />
     <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="height" value="1369" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -556,6 +306,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myallrounddata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myallrounddata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meervitaliteit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myallrounddata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myallrounddata" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobile-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meervitaliteit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -574,6 +364,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="editor.config.accepted" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -1083,7 +874,7 @@
       <workItem from="1449603771526" duration="4703000" />
       <workItem from="1449609951676" duration="6867000" />
       <workItem from="1449672503320" duration="10407000" />
-      <workItem from="1449785404294" duration="2569000" />
+      <workItem from="1449785404294" duration="4093000" />
     </task>
     <task id="LOCAL-00001" summary="added zuul">
       <created>1438493876062</created>
@@ -1119,7 +910,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94565000" />
+    <option name="totallyTimeSpent" value="96089000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1131,8 +922,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="23" width="2560" height="1417" extended-state="6" />
-    <editor active="false" />
+    <frame x="-2560" y="23" width="2560" height="1369" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1142,7 +933,8 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32732967" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17886792" sideWeight="0.49841145" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30792454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18559124" sideWeight="0.49841145" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1437649" sideWeight="0.48473284" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1151,14 +943,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25931233" sideWeight="0.5152672" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3237736" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30792454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32603773" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1481,12 +1272,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#2437#2438#0" expanded="true" />
-            <element signature="e#2485#2486#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1534,18 +1320,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/users/src/main/java/users/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44087404">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24613899">
+        <state vertical-scroll-proportion="-10.625">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/src/main/java/users/domain/User.java">
+    <entry file="file://$PROJECT_DIR$/mobile-app/meervitaliteit/www/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44087404">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-app/meervitaliteit/www/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-app/meervitaliteit/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47064778">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
