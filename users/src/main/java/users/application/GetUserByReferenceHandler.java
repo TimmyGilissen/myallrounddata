@@ -1,6 +1,6 @@
 package users.application;
 
-import users.api.model.UserDTO;
+import users.factory.DTO.UserDTO;
 import users.command.GetUserByReferenceCommand;
 
 /**

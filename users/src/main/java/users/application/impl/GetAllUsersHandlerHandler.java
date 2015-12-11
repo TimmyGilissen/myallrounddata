@@ -1,7 +1,8 @@
 package users.application.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import users.api.model.UserDTO;
+import org.springframework.stereotype.Component;
+import users.factory.DTO.UserDTO;
 import users.application.GetAllUsersHandler;
 import users.domain.User;
 import users.mapper.Mapper;
@@ -10,9 +11,8 @@ import users.repository.UserRepository;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by timmygilissen on 8/12/15.
- */
+
+@Component
 public class GetAllUsersHandlerHandler implements GetAllUsersHandler {
 
     @Autowired

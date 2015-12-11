@@ -6,8 +6,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
-import users.api.model.UserReferenceDTO;
-import users.api.model.UserDTO;
 import users.domain.User;
 import users.domain.UserReference;
 import users.repository.UserRepository;

@@ -1,21 +1,22 @@
 package users.mapper;
 
-import users.api.model.AddressDTO;
-import users.api.model.UserDTO;
-import users.api.model.UserReferenceDTO;
-import users.domain.Address;
+import users.factory.DTO.UserDTO;
+import users.factory.DTO.UserReferenceDTO;
+import users.api.request.UserRequestJson;
+import users.api.response.UserResponse;
+import users.command.AddUserCommand;
 import users.domain.User;
 import users.domain.UserReference;
 
-/**
- * Created by timmygilissen on 8/12/15.
- */
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
 public class Mapper {
     public static UserDTO MapToUserDTO(User u) {
 
         return UserDTO
                 .newBuilder()
-                .withAddress(Mapper.MapToAddressDTO(u.getAddress()))
                 .withDisplayName(u.getDisplayName())
                 .withReference(Mapper.MapToReferenceCodeDTO(u.getReference()))
                 .build();
@@ -27,12 +28,29 @@ public class Mapper {
                 .build();
     }
 
-    public static AddressDTO MapToAddressDTO(Address address) {
-        return AddressDTO.newBuilder()
-                .withCity(address.getCity())
-                .withCountry(address.getCountry())
-                .withNumber(address.getNumber())
-                .withStreet(address.getStreet())
+    public static Collection<UserResponse> MapToUserResponses(List<UserDTO> userDTOs) {
+        Collection<UserResponse> result = new ArrayList<>();
+
+        for (UserDTO us : userDTOs) {
+            result.add(Mapper.MapToUserResponse(us));
+        }
+        return result;
+    }
+
+    public static UserResponse MapToUserResponse(UserDTO us) {
+        return new UserResponse(us.id, us.displayName, us.reference.reference);
+    }
+
+
+    public static AddUserCommand MapToAddUserCommand(UserRequestJson input) {
+        return AddUserCommand.newBuilder()
+                .withFirstName(input.firstName)
+                .withLastName(input.lastName)
+                .withCity(input.city)
+                .withCountry(input.country)
+                .withNumber(input.number)
+                .withPostalCode(input.postalCode)
+                .withStreet(input.street)
                 .build();
     }
 }

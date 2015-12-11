@@ -1,3 +1,3 @@
-users/api/model/User.class
-users/api/UserReference.class
+users/api/request/UserRequestJson.class
+users/api/response/UserResponse.class
 users/api/UserRest.class

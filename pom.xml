@@ -12,7 +12,6 @@
         <module>config</module>
         <module>users.api</module>
         <module>users</module>
-        <module>mybody</module>
         <module>mybody.api</module>
     </modules>
 

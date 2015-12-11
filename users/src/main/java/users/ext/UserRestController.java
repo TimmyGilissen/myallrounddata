@@ -1,16 +1,16 @@
 package users.ext;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-import users.api.model.UserReferenceDTO;
+import org.springframework.web.bind.annotation.*;
+import users.factory.DTO.UserReferenceDTO;
 import users.api.UserRest;
-import users.api.model.UserDTO;
+import users.api.request.UserRequestJson;
 import users.application.GetAllUsersHandler;
 import users.application.GetUserByReferenceHandler;
+import users.application.AddUserHandler;
 import users.command.GetUserByReferenceCommand;
+import users.mapper.Mapper;
+import users.api.response.UserResponse;
 
 import java.util.Collection;
 
@@ -23,15 +23,24 @@ public class UserRestController implements UserRest {
     @Autowired
     private GetAllUsersHandler getAllUsersHandler;
 
+    @Autowired
+    private AddUserHandler addUserHandler;
+
     @Override
     @RequestMapping(value = "/users",method = RequestMethod.GET)
-    public Collection<UserDTO> users() {
-        return this.getAllUsersHandler.GetAllUsers();
+    public Collection<UserResponse> users() {
+        return Mapper.MapToUserResponses(this.getAllUsersHandler.GetAllUsers());
     }
 
     @Override
     @RequestMapping(value = "/user/{reference}", method = RequestMethod.GET)
-    public UserDTO userByReference(@PathVariable("reference") UserReferenceDTO userReferenceDTO) {
-        return getUserByReferenceHandler.getUserByReference(GetUserByReferenceCommand.newBuilder().withReferenceDTO(userReferenceDTO).build());
+    public UserResponse userByReference(@PathVariable("reference") String userReference) {
+        return Mapper.MapToUserResponse(getUserByReferenceHandler.getUserByReference(GetUserByReferenceCommand.newBuilder().withReferenceDTO(UserReferenceDTO.newBuilder().withReference(userReference).build()).build()));
+    }
+
+    @Override
+    @RequestMapping( value = "/user/add" , method = RequestMethod.POST)
+    public void addNewUser(@RequestBody UserRequestJson input) {
+        addUserHandler.addUser(Mapper.MapToAddUserCommand(input));
     }
 }

@@ -18,12 +18,33 @@ public class User {
 
     private String displayName;
 
-    private Address address;
+    private String firstName;
 
-    public User( UserReference reference, String displayName, Address address) {
+    private String lastName;
+
+    private String street;
+
+    private int number;
+
+    private int postalCode;
+
+    private String city;
+
+    private String country;
+
+    public User() {
+    }
+
+    public User(UserReference reference, String displayName, String firstName, String lastName, String street, int number, int postalCode, String city, String country) {
         this.reference = reference;
         this.displayName = displayName;
-        this.address = address;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.street = street;
+        this.number = number;
+        this.postalCode = postalCode;
+        this.city = city;
+        this.country = country;
     }
 
     public User(UserReference userReference, String displayName) {
@@ -43,7 +64,31 @@ public class User {
         return displayName;
     }
 
-    public Address getAddress() {
-        return address;
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public int getPostalCode() {
+        return postalCode;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getCountry() {
+        return country;
     }
 }
