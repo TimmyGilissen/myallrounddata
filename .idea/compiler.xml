@@ -36,7 +36,7 @@
       <module name="myallrounddata" target="1.5" />
       <module name="mybody" target="1.6" />
       <module name="mybody.api" target="1.5" />
-      <module name="parent" target="1.5" />
+      <module name="parent" target="1.8" />
       <module name="users" target="1.8" />
       <module name="users.api" target="1.6" />
       <module name="zuul" target="1.8" />
