@@ -5,6 +5,7 @@
 /Users/timmygilissen/GILIT/projects/myallrounddata/users/src/main/java/users/factory/UserReferenceFactory.java
 /Users/timmygilissen/GILIT/projects/myallrounddata/users/src/main/java/users/UserApplication.java
 /Users/timmygilissen/GILIT/projects/myallrounddata/users/src/main/java/users/command/GetUserByReferenceCommand.java
+/Users/timmygilissen/GILIT/projects/myallrounddata/users/src/main/java/users/filter/SimpleCORSFilter.java
 /Users/timmygilissen/GILIT/projects/myallrounddata/users/src/main/java/users/application/GetAllUsersHandler.java
 /Users/timmygilissen/GILIT/projects/myallrounddata/users/src/main/java/users/factory/DTO/UserDTO.java
 /Users/timmygilissen/GILIT/projects/myallrounddata/users/src/main/java/users/factory/DTO/UserReferenceDTO.java

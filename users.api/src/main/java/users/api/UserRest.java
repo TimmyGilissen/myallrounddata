@@ -11,12 +11,13 @@ import java.util.Collection;
 
 public interface UserRest {
 
+
     @RequestMapping("/users")
     Collection<UserResponse> users();
 
-    @RequestMapping("/user/{reference}")
+    @RequestMapping("/users/{reference}")
     UserResponse userByReference(@PathVariable("reference") String userReference);
 
-    @RequestMapping( value = "/user/add" , method = RequestMethod.POST)
+    @RequestMapping( value = "/users/add" , method = RequestMethod.POST)
     void addNewUser(@RequestBody UserRequestJson input);
 }

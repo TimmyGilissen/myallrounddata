@@ -1,7 +1,6 @@
 package myhealth.api.model;
 
 import myhealth.api.BodyReference;
-import users.api.model.UserReferenceDTO;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
@@ -16,9 +15,6 @@ public class Body {
     @Id
     @GeneratedValue
     private Long id;
-
-    @Embedded
-    private UserReferenceDTO reference;
 
     @Embedded
     private BodyReference bodyReference;
@@ -52,9 +48,8 @@ public class Body {
 
     private Long rightArm;
 
-    public Body(Long id, UserReferenceDTO reference, BodyReference bodyReference, Long weight, Long fat, Long wather, Long internalFat, Long boneMass, Long muscle, Long mentalAge, Long chest, Long waist, Long hip, Long rightButtock, Long leftButtock, Long leftArm, Long rightArm) {
+    public Body(Long id, BodyReference bodyReference, Long weight, Long fat, Long wather, Long internalFat, Long boneMass, Long muscle, Long mentalAge, Long chest, Long waist, Long hip, Long rightButtock, Long leftButtock, Long leftArm, Long rightArm) {
         this.id = id;
-        this.reference = reference;
         this.bodyReference = bodyReference;
         this.weight = weight;
         this.fat = fat;
@@ -73,10 +68,6 @@ public class Body {
     }
 
     public Body(){}
-
-    public UserReferenceDTO getReference() {
-        return reference;
-    }
 
     public Long getId() {
         return id;

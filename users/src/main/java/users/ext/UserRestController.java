@@ -33,13 +33,13 @@ public class UserRestController implements UserRest {
     }
 
     @Override
-    @RequestMapping(value = "/user/{reference}", method = RequestMethod.GET)
+    @RequestMapping(value = "/users/{reference}", method = RequestMethod.GET)
     public UserResponse userByReference(@PathVariable("reference") String userReference) {
         return Mapper.MapToUserResponse(getUserByReferenceHandler.getUserByReference(GetUserByReferenceCommand.newBuilder().withReferenceDTO(UserReferenceDTO.newBuilder().withReference(userReference).build()).build()));
     }
 
     @Override
-    @RequestMapping( value = "/user/add" , method = RequestMethod.POST)
+    @RequestMapping( value = "/users/add" , method = RequestMethod.POST)
     public void addNewUser(@RequestBody UserRequestJson input) {
         addUserHandler.addUser(Mapper.MapToAddUserCommand(input));
     }

@@ -1,0 +1,41 @@
+<ion-view view-title="Klanten">
+  <ion-content>
+    <div class="list">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Voornaam</span>
+        <input type="text" placeholder="Voornaam" ng-model="user.firstName">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Achternaam</span>
+        <input type="text" placeholder="Achternaam" ng-model="user.lastName">
+      </label>
+      <!--<label class="item item-input item-floating-label">-->
+        <!--<span class="input-label">Email</span>-->
+        <!--<input type="email" placeholder="Email" ng-model="user.email">-->
+      <!--</label>-->
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Straat</span>
+        <input type="text" placeholder="Straat" ng-model="user.street">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Nummer</span>
+        <input type="text" placeholder="Nummer" ng-model="user.number">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Postcode</span>
+        <input type="text" placeholder="Postcode" ng-model="user.postalCode">
+      </label>
+      <label class="item item-input item-floating-label" ng-model="user.city">
+        <span class="input-label">Stad</span>
+        <input type="text" placeholder="Stad">
+      </label>
+      <label class="item item-input item-floating-label" ng-model="user.country">
+        <span class="input-label">Land</span>
+        <input type="text" placeholder="Land">
+      </label>
+      <button class="button button-full button button-balanced" ng-click="addUser(user)">
+        Toevoegen
+      </button>
+    </div>
+  </ion-content>
+</ion-view>

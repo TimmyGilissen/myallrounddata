@@ -6,6 +6,7 @@ users/command/GetUserByReferenceCommand.class
 users/application/impl/GetUserByReferenceHandlerHandler.class
 users/domain/UserReference.class
 users/command/AddUserCommand$1.class
+users/filter/SimpleCORSFilter.class
 users/mapper/Mapper.class
 users/application/impl/GetAllUsersHandlerHandler.class
 users/domain/User.class

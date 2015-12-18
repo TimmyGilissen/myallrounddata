@@ -1,0 +1,17 @@
+<ion-view view-title="Klant toevoegen">
+  <ion-content>
+    <div class="list">
+      <label class="item item-input">
+        <input type="text" placeholder="Klanten" ng-model="searchText">
+      </label>
+      <a ng-repeat="user in users | filter:searchText" class="item" href="#/app/klant/{{user.referenceCode}}">{{user.displayName}}</a>
+    </div>
+  </ion-content>
+  <div class="float-button">
+    <span class="height-fix">
+      <a href="#/app/klant/add" class="content">
+        <i class="ion-plus-round"> </i>
+      </a>
+    </span>
+  </div>
+</ion-view>

@@ -16,4 +16,6 @@ public class UserRequestJson {
     public String city;
 
     public String country;
+
+    public String email;
 }
