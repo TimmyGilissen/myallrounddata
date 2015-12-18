@@ -14,7 +14,7 @@
     </properties>
 
     <modules>
-        <module>config</module>
+        <!--module>config</module-->
         <module>users.api</module>
         <module>users</module>
         <module>mybody.api</module>
